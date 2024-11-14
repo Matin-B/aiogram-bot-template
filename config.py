@@ -1,0 +1,3 @@
+BOT_API_TOKEN = ""
+DEVELOPER_TELEGRAM_ID = 777777777
+MONGO_URI = "mongodb://localhost:27017/"
