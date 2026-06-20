@@ -26,4 +26,4 @@ def get_user(user_id: int) -> dict:
     """
     Fetches user information from the database.
     """
-    return db.users.find_one({"user_id": user_id})
+    return db.users.find_one({"_id": user_id})
