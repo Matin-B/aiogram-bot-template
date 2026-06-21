@@ -8,7 +8,7 @@ router = Router()
 
 @router.message(Command("start"))
 async def start_command(message: Message) -> None:
-    add_user(message.from_user.id, message.from_user.username)
+    add_user(message.from_user.id)
     
     await message.reply(
         text=emojize(
