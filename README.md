@@ -1,4 +1,4 @@
-# Telegram Bot Template with aiogram v3.14.0
+# Telegram Bot Template with aiogram 3.29.0
 
 This repository provides a clean, reusable template for creating Telegram bots using [aiogram](https://docs.aiogram.dev/en/v3.14.0/), an asynchronous Python framework. It includes handlers for basic commands, error handling, and utility functions to help you get started quickly with a structured and scalable bot.
 
