@@ -6,7 +6,7 @@ from aiogram.client.bot import DefaultBotProperties
 from aiogram.enums import ParseMode
 
 from config import BOT_API_TOKEN
-from handlers import error, start
+from handlers import error, start, greeting
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -18,6 +18,7 @@ dp = Dispatcher()
 # Include routers from handlers
 dp.include_router(start.router)
 dp.include_router(error.router)
+dp.include_router(greeting.router)
 
 async def main() -> None:
     await dp.start_polling(bot, skip_updates=True)
